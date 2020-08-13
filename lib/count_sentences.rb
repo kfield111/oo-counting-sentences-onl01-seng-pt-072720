@@ -18,6 +18,7 @@ class String
     array = []
     array = self.split(/[.?!{2}]/).count
     array.reject {|temp| temp.empty?}
+    array
   end
   #binding.pry
 end
