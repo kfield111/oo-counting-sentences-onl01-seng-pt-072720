@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    self.split(/[.?!{2}]/).count
+    self.split(/[.?!{2}]/).count.delete("")
   end
   #binding.pry
 end
