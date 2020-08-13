@@ -18,6 +18,7 @@ class String
     array = []
     array.push self.split.count
     array.delete("")
+    array
 
     binding.pry
   end
