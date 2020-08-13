@@ -15,7 +15,10 @@ class String
   end
 
   def count_sentences
-    self.split.count.delete("")
+    array = []
+    array.push self.split.count
+    array.delete("")
+    
     binding.pry
   end
 end
