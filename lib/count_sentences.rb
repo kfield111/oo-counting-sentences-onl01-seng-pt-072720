@@ -18,6 +18,7 @@ class String
     variable = self.split(/[.?!]/)
     variable.reject {|temp| temp.empty?}
     variable.count
-    binding.pry
+    #binding.pry
   end
 end
+ß
