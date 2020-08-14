@@ -18,6 +18,6 @@ class String
     variable = self.split(/[.?!]/)
     variable.delete(" ")
     variable.count
-    binding.pry
+    #binding.pry
   end
 end
