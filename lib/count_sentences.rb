@@ -16,6 +16,8 @@ class String
 
   def count_sentences
     variable = self.split(/[.?!]/)
+    variable.reject {|temp| temp.empty?}
+    variable.count
     binding.pry
   end
 end
